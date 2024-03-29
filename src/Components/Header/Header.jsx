@@ -19,7 +19,7 @@ const Header = () => {
         </h1>
 
         <h1 className="navbar-brand" href=""  style={{color: 'blue', width: '170px', height: '70px', marginBottom: '10px', backgroundColor: '', borderRadius: '10px', fontFamily: 'cursive', justifyContent: 'center', display: 'grid'}}>
-          Master In Coding <br></br> junior
+          Master In Coding <br></br>
         </h1> 
 
         <div className="footer-bottom" style={{ width:'100%', height:''}}>

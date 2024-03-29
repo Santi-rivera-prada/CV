@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import Header from '@/components/Header';
+import Header from './Components/Header/Header';
 import RoutesIndex from './routes/RoutesIndex';
 import Footer from './footer/Footer'; // Asegúrate de proporcionar la ubicación correcta para el archivo del Footer.
 import './App.css';

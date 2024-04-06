@@ -2,11 +2,10 @@
   background-color: rgb(255, 255, 255);
   color: #ffffff;
   padding: 10px 10px;
-  position:relative;
+  position: relative;
   z-index: 20;
   width: 100%;
   height: 100%;
-  
 }
 
 .footer-container {
@@ -22,12 +21,13 @@
 .footer h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  border: 2px solid;
+  color: pink;
 }
 
 .footer-section {
   flex: 1;
   margin-right: 20px;
-  
 }
 
 .footer ul {
@@ -43,17 +43,15 @@
   color: #0e0e76;
   text-decoration: none;
   transition: color 0.2s;
-  
 }
 
 .footer ul li a:hover {
   color: #37ebf8;
-  
 }
 
 .footer img {
   width: 300px; /* Cambiado de 120px a 100% para que se ajuste al ancho del contenedor */
-  transition: transform 0.5s ;
+  transition: transform 0.5s;
   margin-bottom: 19px;
 }
 
@@ -90,7 +88,7 @@
   font-size: 24px;
 }
 
-h3{
+h3 {
   background-color: #000000;
   border-radius: 10px;
 }

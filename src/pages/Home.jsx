@@ -18,11 +18,13 @@ const Home = () => {
           onClick={() => handleButtonClick("about")}
           style={{
             color: "blue",
-            width: "150px",
+            width: "30%",
             height: "50px",
             margin: "2px",
             backgroundColor: "black",
             marginTop: "50px",
+            fontSize: "80%",
+            border: "2px solid"
           }}
         >
           Acerca de
@@ -32,11 +34,13 @@ const Home = () => {
           onClick={() => handleButtonClick("experience")}
           style={{
             color: "red",
-            width: "150px",
+            width: "30%",
             height: "50px",
             margin: "2px",
             backgroundColor: "black",
             marginTop: "50px",
+            fontSize: "80%",
+            border: "2px solid"
           }}
         >
           Experiencia
@@ -46,11 +50,13 @@ const Home = () => {
           onClick={() => handleButtonClick("education")}
           style={{
             color: "blue",
-            width: "150px",
+            width: "30%",
             height: "50px",
             margin: "2px",
             backgroundColor: "black",
             marginTop: "50px",
+            fontSize: "80%",
+            border: "2px solid"
           }}
         >
           Educación
@@ -60,11 +66,13 @@ const Home = () => {
           onClick={() => handleButtonClick("skills")}
           style={{
             color: "red",
-            width: "150px",
+            width: "30%",
             height: "50px",
             margin: "2px",
             backgroundColor: "black",
             marginTop: "50px",
+            fontSize: "80%",
+            border: "2px solid"
           }}
         >
           Habilidades
@@ -74,11 +82,13 @@ const Home = () => {
           onClick={() => handleButtonClick("interests")}
           style={{
             color: "blue",
-            width: "150px",
+            width: "30%",
             height: "50px",
             margin: "2px",
             backgroundColor: "black",
             marginTop: "50px",
+            fontSize: "80%",
+            border: "2px solid"
           }}
         >
           Intereses
@@ -86,9 +96,9 @@ const Home = () => {
       </div>
 
       {selectedSection === "about" && (
-        <div className="about-section">
+        <div className="about-section" style={{margin:'30px'}}>
           {/* Contenido de la sección Acerca de */}
-          <h2 style={{ color: "white", marginTop: "80px" }}>Acerca de Mí</h2>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid ' }}>Acerca de Mí</h2>
           <p>
             ✓ Santiago Rivera Prada <br></br>
             Master In Coding <br></br>
@@ -109,7 +119,7 @@ const Home = () => {
             fue el desarrollo de cada proyecto <br></br>
             esta en la sección de experiencia ... Continuando{" "}
           </p>
-          <h2 style={{ color: "white" }}>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid '  }}>
             Algunas caracteristicas destacables{" "}
           </h2>
           <p>✓ Soy muy autodidacta </p>
@@ -150,9 +160,9 @@ const Home = () => {
       )}
 
       {selectedSection === "experience" && (
-        <div className="experience-section">
+        <div className="experience-section" style={{margin:'30px'}}>
           {/* Contenido de la sección Experiencia */}
-          <h2 style={{ color: "white", marginTop: "80px" }}>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid ' }}>
             Experiencia Laboral
           </h2>
           <p>
@@ -162,12 +172,12 @@ const Home = () => {
             completamente y otros que quedaron casi terminados <br></br>
             si quieres conocer mis proyectos y ver <br></br>
             una breve descrpción de como lo desarrolle <br></br>
-            te invito a ingresar con el siguiente boton
+            ¡te invito a ingresar con el siguiente boton!
           </p>
           <a
             className="btn btn-custom "
             href="/P"
-            style={{ color: "white", backgroundColor: "black" }}
+            style={{ color: "pink", backgroundColor: "black", margin:'20px', border: '3px solid '  }}
           >
             ver
           </a>
@@ -175,9 +185,9 @@ const Home = () => {
       )}
 
       {selectedSection === "education" && (
-        <div className="education-section">
+        <div className="education-section" style={{margin:'30px'}}>
           {/* Contenido de la sección Educación */}
-          <h2 style={{ color: "white", marginTop: "80px" }}>Educación</h2>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid '  }}>Educación</h2>
           <p>
             {" "}
             ✓ Primaria <br></br>
@@ -212,17 +222,17 @@ const Home = () => {
             Mi master en coding , lo estudie en la academia privada de la ciudad
             de mexico desde el <br></br>
             2022 en noviembre hasta el 26 de diciembre del 2023 el cual fue el
-            dia que resivi mi sertificacion como<br></br>
+            dia que resivi mi certificación como<br></br>
             MASTER EN CODING{" "}
           </p>
 
           <p>
-            Oprime el boton para ver los sertificados que constan lo anterior
+            ¡Oprime el boton para ver los certificados que constan lo anterior!
           </p>
           <a
             className="btn btn-custom "
             href="/c"
-            style={{ color: "white", backgroundColor: "black" }}
+            style={{ color: "pink", backgroundColor: "black", margin:'20px', border: '3px solid '  }}
           >
             ver
           </a>
@@ -230,9 +240,9 @@ const Home = () => {
       )}
 
       {selectedSection === "skills" && (
-        <div className="skills-section">
+        <div className="skills-section"  style={{margin:'30px'}}>
           {/* Contenido de la sección Habilidades */}
-          <h2 style={{ color: "white", marginTop: "80px" }}>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid ' }}>
             Habilidades de desarrollo
           </h2>
           <p>
@@ -273,7 +283,7 @@ const Home = () => {
             y configurar un proceso de integración continua CI
           </p>
 
-          <h2 style={{ color: "white", marginTop: "80px" }}>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid ' }}>
             Habilidades de desarrollo que desarrolle de manera autodidacta
           </h2>
           <p>✓ Implementacion de estilos SCSS</p>
@@ -285,9 +295,9 @@ const Home = () => {
       )}
 
       {selectedSection === "interests" && (
-        <div className="interests-section">
+        <div className="interests-section"  style={{margin:'30px'}}>
           {/* Contenido de la sección Intereses */}
-          <h2 style={{ color: "white", marginTop: "80px" }}>Intereses</h2>
+          <h2 style={{ color: "pink", marginTop: "80px", border: '3px solid ' }}>Intereses</h2>
           <p>✓ Trabajo remoto</p>
           <p>✓ Tener una vida comoda y un buen trabajo</p>
           <p>✓ Trabajar comodamente</p>

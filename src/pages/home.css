@@ -20,7 +20,6 @@ h2:hover {
   transform: scale(0.9);
 }
 
-
 img:hover {
   transition: transform 0.5s;
   transform: scale(0.9);
@@ -39,4 +38,82 @@ button:hover {
 a:hover {
   transition: transform 0.5s;
   transform: scale(0.9);
+}
+
+/*estilos de proyectos*/
+
+.section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  color: pink;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 1px;
+}
+
+.section ul li {
+  color: #0e0e76;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.section ul li:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+  color: red;
+}
+
+.section p {
+  color: rgb(50, 50, 185);
+}
+
+.section p:hover {
+  color: rgb(162, 43, 164);
+  transition: transform 0.5s;
+  transform: scale(0.9);
+}
+
+.section img {
+  width: 70%;
+  height: 70%;
+}
+
+.section video {
+  width: 70%;
+  height: 70%;
+}
+
+.section a {
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: pink;
+  border: 2px solid;
+}
+
+.section a:hover {
+  color: rgb(162, 43, 164);
+  transition: transform 0.5s;
+  transform: scale(0.9);
+}
+
+.section h1 {
+  color: rgb(113, 32, 171);
+  margin: 30px;
+  font-size: xxx-large;
+  font-family: cursive;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#redireccion {
+  color: red;
 }

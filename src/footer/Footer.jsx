@@ -1,13 +1,14 @@
-import "./Footer.css";
+import React from 'react';
+import './Footer.css';
 
-const Footer = () => {
+const Footer = ({ darkMode }) => {
   return (
-    <footer className="footer">
+    <footer className={darkMode ? 'footer footer-dark' : 'footer footer-light'}>
       <div className="footer-container">
         <div className="footer-section">
           <h3>Contacto</h3>
           <ul>
-            <li style={{ color: "black" }}>Contáctame</li>
+            <li>Contáctame</li>
             <li>
               <a href="https://wa.me/+573245417802">Tell- +57 3245417802</a>
             </li>
@@ -16,12 +17,8 @@ const Footer = () => {
                 santiagoriveraprada0@gmail.com
               </a>
             </li>
-            <li>
-              <a style={{ color: "black" }}>Via whatsApp y llamadas </a>
-            </li>
-            <li>
-              <a style={{ color: "black" }}>Respuesta por correo-12 horas</a>
-            </li>
+            <li>Via whatsApp y llamadas</li>
+            <li>Respuesta por correo-12 horas</li>
           </ul>
         </div>
         <div className="footer-section">
@@ -44,11 +41,11 @@ const Footer = () => {
             </li>
             <li>
               <a href="https://www.linkedin.com/in/santiago-rivera-784aa625a/">
-                linkedin
+                LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://github.com/Santi-rivera-prada">Git-Hub</a>
+              <a href="https://github.com/Santi-rivera-prada">GitHub</a>
             </li>
           </ul>
         </div>
@@ -57,7 +54,6 @@ const Footer = () => {
             className="descarga-app"
             src="https://i.pinimg.com/736x/ed/70/51/ed70515b5aca17fbd9352242aec6c291.jpg"
             alt="Master In Coding"
-            style={{}}
           />
         </div>
       </div>

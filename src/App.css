@@ -47,11 +47,14 @@
 
 
 /* Estilos para el modo oscuro */
-.dark-mode {
+.dark-mode{
   background-color: #000000;
   color: #ffffff;
 }
 
+.dark-mode p{
+  color: white;
+}
 
 
 .dark-mode img {
